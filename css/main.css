@@ -325,6 +325,10 @@ html, body {
     box-shadow: var(--box-shadow);
     border-radius: 10px;
 }
+.project:hover{
+    box-shadow: 3px 3px 3px 0 rgba(59, 108, 206, 0.867); 
+}
+
 
 .project__img {
     border-radius: 10px;
@@ -507,4 +511,13 @@ html, body {
         width: 28px;
     }
 
+}
+
+
+.container{
+    gap: 50px;
+}
+
+h2{
+    margin-top: 50px;
 }
